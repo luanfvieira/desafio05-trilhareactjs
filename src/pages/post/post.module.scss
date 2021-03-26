@@ -69,3 +69,32 @@
     }
   }
 }
+
+.pagination {
+  border-top: 1px solid var(--body);
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    span {
+      display: block;
+      font-size: 1.1rem;
+      color: var(--heading);
+    }
+
+    strong {
+      display: block;
+      margin-top: 0.5rem;
+      color: var(--highlight);
+      font-weight: 600;
+    }
+  }
+}
+
+.next {
+  margin-left: auto;
+}
